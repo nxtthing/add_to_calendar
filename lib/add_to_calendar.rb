@@ -4,8 +4,8 @@ require "add_to_calendar/version"
 # CGI::escape uses + instead of %20 which doesn't work for ical files
 require "erb"
 include ERB::Util
-require 'tzinfo'
-require 'date'
+require "tzinfo"
+require "date"
 # require 'pry'
 
 module AddToCalendar
